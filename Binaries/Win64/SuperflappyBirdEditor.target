@@ -1,0 +1,33 @@
+{
+	"TargetName" : "SuperflappyBirdEditor",
+	"Platform" : "Win64",
+	"Configuration" : "Development",
+	"BuildId" : "00d9c195-d47c-4bad-b025-64fff2c68d48",
+	"Version" : 
+	{
+		"MajorVersion" : 4,
+		"MinorVersion" : 11,
+		"PatchVersion" : 2,
+		"Changelist" : 2946394,
+		"IsLicenseeVersion" : 0,
+		"BranchName" : "++UE4+Release-4.11"
+	},
+	"BuildProducts" :
+	[
+		{
+			"Path" : "$(ProjectDir)\\Binaries\\Win64\\UE4Editor-SuperflappyBird-1934.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Binaries\\Win64\\UE4Editor-SuperflappyBird-1934.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\UE4Editor-SuperflappyBird-1934.lib",
+			"Type" : "ImportLibrary"
+		}
+	],
+	"RuntimeDependencies" :
+	[
+	]
+}

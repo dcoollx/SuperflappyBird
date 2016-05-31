@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SuperflappyBird.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D15974CC-8085-4525-AB69-0DDE602621A6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SuperflappyBird.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SuperflappyBirdEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{A8568D46-B182-447C-BEBA-022C70102FEC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SuperflappyBird">
+			<UniqueIdentifier>{BCE83BDD-3AF8-4CA8-A22D-DF11C95213F2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SuperflappyBird\SuperflappyBird.Build.cs">
+			<Filter>Source\SuperflappyBird</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SuperflappyBird\SuperflappyBird.cpp">
+			<Filter>Source\SuperflappyBird</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SuperflappyBird\SuperflappyBird.h">
+			<Filter>Source\SuperflappyBird</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SuperflappyBird\SuperflappyBirdCharacter.cpp">
+			<Filter>Source\SuperflappyBird</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SuperflappyBird\SuperflappyBirdCharacter.h">
+			<Filter>Source\SuperflappyBird</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SuperflappyBird\SuperflappyBirdGameMode.cpp">
+			<Filter>Source\SuperflappyBird</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SuperflappyBird\SuperflappyBirdGameMode.h">
+			<Filter>Source\SuperflappyBird</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
